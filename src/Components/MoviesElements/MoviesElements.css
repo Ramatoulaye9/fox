@@ -1,0 +1,29 @@
+.movie-details {
+    transition: all 0.5s ease;
+}
+
+.movie-details:hover {
+    transform: scale(1.05);
+}
+
+.movie-details .cover {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.date{
+    font-size: 14px;
+}
+
+.name{
+    font-weight: bold;
+}
+

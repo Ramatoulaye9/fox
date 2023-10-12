@@ -1,0 +1,57 @@
+.infos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+} 
+
+.infos .backdrop{
+    display: flex;
+    width: 100%;
+    opacity: 0.4;
+} 
+
+.infos .couverture{
+    width:400px;
+    height: 370px;
+    margin: 60px;
+    margin-left: 65px;
+    position: absolute; 
+}
+
+.infos .details{
+    position: absolute;
+    margin-left: 45%;
+    text-align: left;
+    margin-top: 25%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.details .nom{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.details .genre{
+    margin-bottom: 15px;
+}
+
+.resume{
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume p{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 15px;
+}
+

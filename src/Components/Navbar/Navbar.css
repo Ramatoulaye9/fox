@@ -1,0 +1,55 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 0.8rem 0;
+    background-color: black;
+    z-index: 2;
+}
+
+.nav-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+}
+
+.nav .nom {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    letter-spacing: -2px;
+}
+
+.nav .login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: solid 1.5px #414141;
+    padding: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 17px;
+    transition: all 0.8s ease;    
+}
+
+button:hover {
+    color: #fff;
+    background-color: #0086bd;
+    font-weight: bold;
+}
+

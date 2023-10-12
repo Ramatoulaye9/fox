@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.movies{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.movies h1{
+    font-size: 22px;
+    font-style: normal;
+    text-align: left;
+}
+
+/* .movies .movies-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between space-around;
+    gap: 1rem;
+    margin-top:15px ;
+    margin-bottom: 30px;
+} */
+
+
+.movies .movies-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top:15px ;
+    margin-bottom: 30px;
+}
